@@ -1,0 +1,228 @@
+[gd_scene load_steps=96 format=2]
+
+[ext_resource path="res://resources/isoObjects.tres" type="TileSet" id=1]
+[ext_resource path="res://resources/isoFloors.tres" type="TileSet" id=2]
+[ext_resource path="res://resources/isoWalls.tres" type="TileSet" id=3]
+[ext_resource path="res://scenes/KinematicBody2D.gd" type="Script" id=4]
+[ext_resource path="res://assets/character/run/Male_1_Run1.png" type="Texture" id=5]
+[ext_resource path="res://assets/character/run/Male_2_Run2.png" type="Texture" id=6]
+[ext_resource path="res://assets/character/run/Male_2_Run9.png" type="Texture" id=7]
+[ext_resource path="res://assets/character/run/Male_1_Run7.png" type="Texture" id=8]
+[ext_resource path="res://assets/character/run/Male_3_Run6.png" type="Texture" id=9]
+[ext_resource path="res://assets/character/run/Male_1_Run0.png" type="Texture" id=10]
+[ext_resource path="res://assets/character/run/Male_3_Run5.png" type="Texture" id=11]
+[ext_resource path="res://assets/character/run/Male_4_Run3.png" type="Texture" id=12]
+[ext_resource path="res://assets/character/run/Male_4_Run7.png" type="Texture" id=13]
+[ext_resource path="res://assets/character/run/Male_1_Run8.png" type="Texture" id=14]
+[ext_resource path="res://assets/character/run/Male_4_Run8.png" type="Texture" id=15]
+[ext_resource path="res://assets/character/run/Male_0_Run5.png" type="Texture" id=16]
+[ext_resource path="res://assets/character/run/Male_5_Run0.png" type="Texture" id=17]
+[ext_resource path="res://assets/character/run/Male_0_Run8.png" type="Texture" id=18]
+[ext_resource path="res://assets/character/run/Male_1_Run9.png" type="Texture" id=19]
+[ext_resource path="res://assets/character/run/Male_3_Run2.png" type="Texture" id=20]
+[ext_resource path="res://assets/character/run/Male_4_Run9.png" type="Texture" id=21]
+[ext_resource path="res://assets/character/run/Male_0_Run4.png" type="Texture" id=22]
+[ext_resource path="res://assets/character/run/Male_5_Run1.png" type="Texture" id=23]
+[ext_resource path="res://assets/character/run/Male_5_Run2.png" type="Texture" id=24]
+[ext_resource path="res://assets/character/run/Male_3_Run3.png" type="Texture" id=25]
+[ext_resource path="res://assets/character/run/Male_5_Run3.png" type="Texture" id=26]
+[ext_resource path="res://assets/character/run/Male_5_Run4.png" type="Texture" id=27]
+[ext_resource path="res://assets/character/run/Male_2_Run5.png" type="Texture" id=28]
+[ext_resource path="res://assets/character/run/Male_0_Run7.png" type="Texture" id=29]
+[ext_resource path="res://assets/character/run/Male_2_Run1.png" type="Texture" id=30]
+[ext_resource path="res://assets/character/run/Male_2_Run3.png" type="Texture" id=31]
+[ext_resource path="res://assets/character/run/Male_3_Run4.png" type="Texture" id=32]
+[ext_resource path="res://assets/character/run/Male_1_Run5.png" type="Texture" id=33]
+[ext_resource path="res://assets/character/run/Male_1_Run6.png" type="Texture" id=34]
+[ext_resource path="res://assets/character/run/Male_2_Run7.png" type="Texture" id=35]
+[ext_resource path="res://assets/character/run/Male_2_Run0.png" type="Texture" id=36]
+[ext_resource path="res://assets/character/run/Male_3_Run7.png" type="Texture" id=37]
+[ext_resource path="res://assets/character/run/Male_2_Run8.png" type="Texture" id=38]
+[ext_resource path="res://assets/character/run/Male_3_Run8.png" type="Texture" id=39]
+[ext_resource path="res://assets/character/run/Male_1_Run3.png" type="Texture" id=40]
+[ext_resource path="res://assets/character/run/Male_2_Run4.png" type="Texture" id=41]
+[ext_resource path="res://assets/character/run/Male_3_Run1.png" type="Texture" id=42]
+[ext_resource path="res://assets/character/run/Male_4_Run0.png" type="Texture" id=43]
+[ext_resource path="res://assets/character/run/Male_1_Run2.png" type="Texture" id=44]
+[ext_resource path="res://assets/character/run/Male_4_Run4.png" type="Texture" id=45]
+[ext_resource path="res://assets/character/run/Male_4_Run6.png" type="Texture" id=46]
+[ext_resource path="res://assets/character/run/Male_3_Run9.png" type="Texture" id=47]
+[ext_resource path="res://assets/character/run/Male_0_Run3.png" type="Texture" id=48]
+[ext_resource path="res://assets/character/run/Male_0_Run1.png" type="Texture" id=49]
+[ext_resource path="res://assets/character/run/Male_0_Run6.png" type="Texture" id=50]
+[ext_resource path="res://assets/character/run/Male_4_Run5.png" type="Texture" id=51]
+[ext_resource path="res://assets/character/run/Male_5_Run5.png" type="Texture" id=52]
+[ext_resource path="res://assets/character/run/Male_3_Run0.png" type="Texture" id=53]
+[ext_resource path="res://assets/character/run/Male_4_Run1.png" type="Texture" id=54]
+[ext_resource path="res://assets/character/run/Male_0_Run2.png" type="Texture" id=55]
+[ext_resource path="res://assets/character/run/Male_4_Run2.png" type="Texture" id=56]
+[ext_resource path="res://assets/character/run/Male_0_Run9.png" type="Texture" id=57]
+[ext_resource path="res://assets/character/run/Male_0_Run0.png" type="Texture" id=58]
+[ext_resource path="res://assets/character/run/Male_1_Run4.png" type="Texture" id=59]
+[ext_resource path="res://assets/character/run/Male_2_Run6.png" type="Texture" id=60]
+[ext_resource path="res://assets/character/run/Male_7_Run5.png" type="Texture" id=61]
+[ext_resource path="res://assets/character/run/Male_7_Run0.png" type="Texture" id=62]
+[ext_resource path="res://assets/character/run/Male_7_Run1.png" type="Texture" id=63]
+[ext_resource path="res://assets/character/run/Male_7_Run6.png" type="Texture" id=64]
+[ext_resource path="res://assets/character/run/Male_7_Run4.png" type="Texture" id=65]
+[ext_resource path="res://assets/character/run/Male_6_Run1.png" type="Texture" id=66]
+[ext_resource path="res://assets/character/run/Male_5_Run7.png" type="Texture" id=67]
+[ext_resource path="res://assets/character/run/Male_6_Run8.png" type="Texture" id=68]
+[ext_resource path="res://assets/character/run/Male_7_Run2.png" type="Texture" id=69]
+[ext_resource path="res://assets/character/run/Male_6_Run5.png" type="Texture" id=70]
+[ext_resource path="res://assets/character/run/Male_5_Run6.png" type="Texture" id=71]
+[ext_resource path="res://assets/character/run/Male_6_Run9.png" type="Texture" id=72]
+[ext_resource path="res://assets/character/run/Male_6_Run4.png" type="Texture" id=73]
+[ext_resource path="res://assets/character/run/Male_7_Run3.png" type="Texture" id=74]
+[ext_resource path="res://assets/character/run/Male_7_Run9.png" type="Texture" id=75]
+[ext_resource path="res://assets/character/run/Male_6_Run7.png" type="Texture" id=76]
+[ext_resource path="res://assets/character/run/Male_6_Run3.png" type="Texture" id=77]
+[ext_resource path="res://assets/character/run/Male_7_Run7.png" type="Texture" id=78]
+[ext_resource path="res://assets/character/run/Male_6_Run0.png" type="Texture" id=79]
+[ext_resource path="res://assets/character/run/Male_6_Run6.png" type="Texture" id=80]
+[ext_resource path="res://assets/character/run/Male_5_Run8.png" type="Texture" id=81]
+[ext_resource path="res://assets/character/run/Male_5_Run9.png" type="Texture" id=82]
+[ext_resource path="res://assets/character/run/Male_6_Run2.png" type="Texture" id=83]
+[ext_resource path="res://assets/character/run/Male_7_Run8.png" type="Texture" id=84]
+[ext_resource path="res://scenes/AnimatedSprite.gd" type="Script" id=85]
+[ext_resource path="res://assets/character/idle/Male_0_Idle0.png" type="Texture" id=86]
+[ext_resource path="res://assets/character/idle/Male_1_Idle0.png" type="Texture" id=87]
+[ext_resource path="res://assets/character/idle/Male_4_Idle0.png" type="Texture" id=88]
+[ext_resource path="res://assets/character/idle/Male_5_Idle0.png" type="Texture" id=89]
+[ext_resource path="res://assets/character/idle/Male_6_Idle0.png" type="Texture" id=90]
+[ext_resource path="res://assets/character/idle/Male_3_Idle0.png" type="Texture" id=91]
+[ext_resource path="res://assets/character/idle/Male_7_Idle0.png" type="Texture" id=92]
+[ext_resource path="res://assets/character/idle/Male_2_Idle0.png" type="Texture" id=93]
+
+[sub_resource type="CapsuleShape2D" id=1]
+radius = 17.1137
+height = 50.4247
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 17 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 52 ), ExtResource( 71 ), ExtResource( 67 ), ExtResource( 81 ), ExtResource( 82 ) ],
+"loop": true,
+"name": "runLeft",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 90 ) ],
+"loop": true,
+"name": "idleLeftUp",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 86 ) ],
+"loop": true,
+"name": "idleRightUp",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 36 ), ExtResource( 30 ), ExtResource( 6 ), ExtResource( 31 ), ExtResource( 41 ), ExtResource( 28 ), ExtResource( 60 ), ExtResource( 35 ), ExtResource( 38 ), ExtResource( 7 ) ],
+"loop": true,
+"name": "runRightDown",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 62 ), ExtResource( 63 ), ExtResource( 69 ), ExtResource( 74 ), ExtResource( 65 ), ExtResource( 61 ), ExtResource( 64 ), ExtResource( 78 ), ExtResource( 84 ), ExtResource( 75 ) ],
+"loop": true,
+"name": "runUp",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 91 ) ],
+"loop": true,
+"name": "idleDown",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 89 ) ],
+"loop": true,
+"name": "idleLeft",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 88 ) ],
+"loop": true,
+"name": "idleLeftDown",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 87 ) ],
+"loop": true,
+"name": "idleRight",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 92 ) ],
+"loop": true,
+"name": "idleUp",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 79 ), ExtResource( 66 ), ExtResource( 83 ), ExtResource( 77 ), ExtResource( 73 ), ExtResource( 70 ), ExtResource( 80 ), ExtResource( 76 ), ExtResource( 68 ), ExtResource( 72 ) ],
+"loop": true,
+"name": "runLeftUp",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 43 ), ExtResource( 54 ), ExtResource( 56 ), ExtResource( 12 ), ExtResource( 45 ), ExtResource( 51 ), ExtResource( 46 ), ExtResource( 13 ), ExtResource( 15 ), ExtResource( 21 ) ],
+"loop": true,
+"name": "runLeftDown",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 53 ), ExtResource( 42 ), ExtResource( 20 ), ExtResource( 25 ), ExtResource( 32 ), ExtResource( 11 ), ExtResource( 9 ), ExtResource( 37 ), ExtResource( 39 ), ExtResource( 47 ) ],
+"loop": true,
+"name": "runDown",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 93 ) ],
+"loop": true,
+"name": "idleRightDown",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 58 ), ExtResource( 49 ), ExtResource( 55 ), ExtResource( 48 ), ExtResource( 22 ), ExtResource( 16 ), ExtResource( 50 ), ExtResource( 29 ), ExtResource( 18 ), ExtResource( 57 ) ],
+"loop": true,
+"name": "runRightUp",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 10 ), ExtResource( 5 ), ExtResource( 44 ), ExtResource( 40 ), ExtResource( 59 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 8 ), ExtResource( 14 ), ExtResource( 19 ) ],
+"loop": true,
+"name": "runRight",
+"speed": 10.0
+} ]
+
+[node name="scene_1" type="Node2D"]
+
+[node name="floorsMap_1" type="TileMap" parent="."]
+mode = 1
+tile_set = ExtResource( 2 )
+cell_size = Vector2( 256, 128 )
+format = 1
+tile_data = PoolIntArray( -393215, 14, 0, -393214, 14, 0, -393213, 14, 0, -393212, 14, 0, -393211, 14, 0, -393210, 14, 0, -393209, 14, 0, -393208, 14, 0, -327679, 14, 0, -327678, 14, 0, -327677, 14, 0, -327676, 14, 0, -327675, 14, 0, -327674, 14, 0, -327673, 14, 0, -327672, 14, 0, -262143, 14, 0, -262142, 14, 0, -262141, 14, 0, -262140, 14, 0, -262139, 14, 0, -262138, 14, 0, -262137, 14, 0, -262136, 14, 0, -196607, 14, 0, -196606, 14, 0, -196605, 14, 0, -196604, 14, 0, -196603, 14, 0, -196602, 14, 0, -196601, 14, 0, -196600, 14, 0, -131071, 14, 0, -131070, 14, 0, -131069, 14, 0, -131068, 14, 0, -131067, 14, 0, -131066, 14, 0, -131065, 14, 0, -131064, 14, 0, -65535, 14, 0, -65534, 14, 0, -65533, 14, 0, -65532, 14, 0, -65531, 14, 0, -65530, 14, 0, -65529, 14, 0, -65528, 14, 0, 1, 14, 0, 2, 14, 0, 3, 14, 0, 4, 14, 0, 5, 14, 0, 6, 14, 0, 7, 14, 0, 8, 14, 0 )
+
+[node name="wallsMap_1" type="TileMap" parent="."]
+mode = 1
+tile_set = ExtResource( 3 )
+cell_size = Vector2( 256, 128 )
+format = 1
+
+[node name="objectsMap_1" type="TileMap" parent="."]
+mode = 1
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 256, 128 )
+format = 1
+
+[node name="KinematicBody2D" type="KinematicBody2D" parent="."]
+position = Vector2( 976.534, 427.251 )
+script = ExtResource( 4 )
+
+[node name="Camera2D" type="Camera2D" parent="KinematicBody2D"]
+position = Vector2( 1.39746, -0.437927 )
+current = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="KinematicBody2D"]
+position = Vector2( 2.77612, 67.9256 )
+rotation = -1.5624
+shape = SubResource( 1 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="KinematicBody2D"]
+position = Vector2( -0.897522, -119.398 )
+frames = SubResource( 2 )
+animation = "idleUp"
+script = ExtResource( 85 )
+
+[node name="TurnAxis" type="Position2D" parent="KinematicBody2D"]
+
+[node name="CastPoint" type="Position2D" parent="KinematicBody2D/TurnAxis"]
+position = Vector2( 60, 0 )
+[connection signal="movement" from="KinematicBody2D" to="KinematicBody2D/AnimatedSprite" method="_on_KinematicBody2D_movement"]
