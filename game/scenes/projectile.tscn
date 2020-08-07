@@ -8,6 +8,8 @@ radius = 9.60365
 height = 28.1322
 
 [node name="projectile" type="RigidBody2D"]
+collision_layer = 4
+collision_mask = 18
 script = ExtResource( 2 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

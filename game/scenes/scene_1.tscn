@@ -100,44 +100,34 @@ height = 50.4247
 
 [sub_resource type="SpriteFrames" id=2]
 animations = [ {
-"frames": [ ExtResource( 17 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 52 ), ExtResource( 71 ), ExtResource( 67 ), ExtResource( 81 ), ExtResource( 82 ) ],
+"frames": [ ExtResource( 58 ), ExtResource( 49 ), ExtResource( 55 ), ExtResource( 48 ), ExtResource( 22 ), ExtResource( 16 ), ExtResource( 50 ), ExtResource( 29 ), ExtResource( 18 ), ExtResource( 57 ) ],
 "loop": true,
-"name": "runLeft",
+"name": "runRightUp",
 "speed": 10.0
-}, {
-"frames": [ ExtResource( 90 ) ],
-"loop": true,
-"name": "idleLeftUp",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 86 ) ],
-"loop": true,
-"name": "idleRightUp",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 36 ), ExtResource( 30 ), ExtResource( 6 ), ExtResource( 31 ), ExtResource( 41 ), ExtResource( 28 ), ExtResource( 60 ), ExtResource( 35 ), ExtResource( 38 ), ExtResource( 7 ) ],
-"loop": true,
-"name": "runRightDown",
-"speed": 10.0
-}, {
-"frames": [ ExtResource( 62 ), ExtResource( 63 ), ExtResource( 69 ), ExtResource( 74 ), ExtResource( 65 ), ExtResource( 61 ), ExtResource( 64 ), ExtResource( 78 ), ExtResource( 84 ), ExtResource( 75 ) ],
-"loop": true,
-"name": "runUp",
-"speed": 10.0
-}, {
-"frames": [ ExtResource( 91 ) ],
-"loop": true,
-"name": "idleDown",
-"speed": 5.0
 }, {
 "frames": [ ExtResource( 89 ) ],
 "loop": true,
 "name": "idleLeft",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 88 ) ],
+"frames": [ ExtResource( 17 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 52 ), ExtResource( 71 ), ExtResource( 67 ), ExtResource( 81 ), ExtResource( 82 ) ],
 "loop": true,
-"name": "idleLeftDown",
+"name": "runLeft",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 53 ), ExtResource( 42 ), ExtResource( 20 ), ExtResource( 25 ), ExtResource( 32 ), ExtResource( 11 ), ExtResource( 9 ), ExtResource( 37 ), ExtResource( 39 ), ExtResource( 47 ) ],
+"loop": true,
+"name": "runDown",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 36 ), ExtResource( 30 ), ExtResource( 6 ), ExtResource( 31 ), ExtResource( 41 ), ExtResource( 28 ), ExtResource( 60 ), ExtResource( 35 ), ExtResource( 38 ), ExtResource( 7 ) ],
+"loop": true,
+"name": "runRightDown",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 86 ) ],
+"loop": true,
+"name": "idleRightUp",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 87 ) ],
@@ -150,35 +140,45 @@ animations = [ {
 "name": "idleUp",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 79 ), ExtResource( 66 ), ExtResource( 83 ), ExtResource( 77 ), ExtResource( 73 ), ExtResource( 70 ), ExtResource( 80 ), ExtResource( 76 ), ExtResource( 68 ), ExtResource( 72 ) ],
+"frames": [ ExtResource( 10 ), ExtResource( 5 ), ExtResource( 44 ), ExtResource( 40 ), ExtResource( 59 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 8 ), ExtResource( 14 ), ExtResource( 19 ) ],
 "loop": true,
-"name": "runLeftUp",
+"name": "runRight",
 "speed": 10.0
+}, {
+"frames": [ ExtResource( 62 ), ExtResource( 63 ), ExtResource( 69 ), ExtResource( 74 ), ExtResource( 65 ), ExtResource( 61 ), ExtResource( 64 ), ExtResource( 78 ), ExtResource( 84 ), ExtResource( 75 ) ],
+"loop": true,
+"name": "runUp",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 91 ) ],
+"loop": true,
+"name": "idleDown",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 88 ) ],
+"loop": true,
+"name": "idleLeftDown",
+"speed": 5.0
 }, {
 "frames": [ ExtResource( 43 ), ExtResource( 54 ), ExtResource( 56 ), ExtResource( 12 ), ExtResource( 45 ), ExtResource( 51 ), ExtResource( 46 ), ExtResource( 13 ), ExtResource( 15 ), ExtResource( 21 ) ],
 "loop": true,
 "name": "runLeftDown",
 "speed": 10.0
 }, {
-"frames": [ ExtResource( 53 ), ExtResource( 42 ), ExtResource( 20 ), ExtResource( 25 ), ExtResource( 32 ), ExtResource( 11 ), ExtResource( 9 ), ExtResource( 37 ), ExtResource( 39 ), ExtResource( 47 ) ],
+"frames": [ ExtResource( 79 ), ExtResource( 66 ), ExtResource( 83 ), ExtResource( 77 ), ExtResource( 73 ), ExtResource( 70 ), ExtResource( 80 ), ExtResource( 76 ), ExtResource( 68 ), ExtResource( 72 ) ],
 "loop": true,
-"name": "runDown",
+"name": "runLeftUp",
 "speed": 10.0
+}, {
+"frames": [ ExtResource( 90 ) ],
+"loop": true,
+"name": "idleLeftUp",
+"speed": 5.0
 }, {
 "frames": [ ExtResource( 93 ) ],
 "loop": true,
 "name": "idleRightDown",
 "speed": 5.0
-}, {
-"frames": [ ExtResource( 58 ), ExtResource( 49 ), ExtResource( 55 ), ExtResource( 48 ), ExtResource( 22 ), ExtResource( 16 ), ExtResource( 50 ), ExtResource( 29 ), ExtResource( 18 ), ExtResource( 57 ) ],
-"loop": true,
-"name": "runRightUp",
-"speed": 10.0
-}, {
-"frames": [ ExtResource( 10 ), ExtResource( 5 ), ExtResource( 44 ), ExtResource( 40 ), ExtResource( 59 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 8 ), ExtResource( 14 ), ExtResource( 19 ) ],
-"loop": true,
-"name": "runRight",
-"speed": 10.0
 } ]
 
 [node name="scene_1" type="Node2D"]
@@ -207,6 +207,7 @@ format = 1
 
 [node name="KinematicBody2D" type="KinematicBody2D" parent="."]
 position = Vector2( 976.534, 427.251 )
+collision_mask = 26
 script = ExtResource( 4 )
 
 [node name="Camera2D" type="Camera2D" parent="KinematicBody2D"]
